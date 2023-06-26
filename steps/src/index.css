@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.container-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.container-title .title-date,
+.container-title .title-distance {
+    width: 153px;
+}
+
+.container-title .title-action {
+    width: 60px;
+    opacity: 0;
+}
+
+.form-action {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-action input {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; // Yeah, yeah everybody write about it
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.form-action button {
+    width: 60px;
+    height: 40px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    background-color: inherit;
+    text-transform: uppercase;
+}
+
+
+.organizer {
+    width: 400px;
+}
+
+.organizer-title,
+.list-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.organizer-title {
+    margin-bottom: 20px;
+}
+
+.organizer-list {
+    padding: 15px 0 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+.list-item .item-action {
+    display: flex;
+    justify-content: space-around;
+}
+
